@@ -1,0 +1,22 @@
+产品硬件和软件介绍【如有需求，请联系：肖生  电话（微信同号）：18611588103】
+
+GMSL2 信号采集板硬件功能描述
+（1）GMSL Deserializer解串器型号魏MAX9296A
+（2）硬件接口定义为AGX Xavier/TX2开发套件120Pin定义
+（3）支持最多8路GMSL相机同时输入（可选4路）， 12V POC供电
+（4）硬件和软件可支持多路相机时间同步（前提：相机需支持同步功能）
+（5）支持接入的串行器包括但不限于MAX9295/MAX96717/MAX96705/MAX96715等
+（6）此采集板适配AGX Xavier/TX2开发套件，NX可参考我司的定制载板
+
+
+GMSL信号采集板软件描述：
+· GMSL采集板硬件设配Jetson AGX Xavier/TX2开发套件
+· 软件代码可移植支持NVIDIA Jetson NX/Jetson TX2-NX/Jetson Nano
+· GMSL相机已支持列表描述如下：
+(1) GMSL1串行器MAX96705/MAX96701/MAX96715等
+(2) GMSL2串行器MAX9295/MAX96717等
+(3) Sensor包括但不限于AR0143/AR0147/AR0231/AR0233/AR0820/ISX019/IMX390/IMX490/OX01FC/OV2778/OX03C/OX08Bc等
+(4) 可根据客户提供的GMSL相机样品进行调试并提供镜像或源码
+(5) 推荐采用前置ISP，因为AGX/NX Xavier ISP 不支持HDR
+(6) 软件可支持不同相机的同时接入到主控，如8M+2M
+(7) 已验证品牌相机包括猎豹、森云、丽景、华阳、德赛、辉创等
