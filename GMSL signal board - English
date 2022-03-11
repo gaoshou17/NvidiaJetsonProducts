@@ -1,0 +1,21 @@
+Product hardware and software introduction 
+[if interest, please feel free to contact: Cyrus Tel. (wechat/whatsapp/skype same number): 18611588103  or by Email:gaoshou17@gmail.com]
+
+Hardware function description of GMSL2 signal acquisition board：
+(1) GMSL deserializer model MAX9296A
+(2) The hardware interface is defined as 120pin of AgX Xavier / TX2 Devkit
+(3) Support simultaneous input of up to 8 GMSL cameras (4 channels optional), 12V POC power supply
+(4) Hardware and software can support multi-channel camera time synchronization (premise: the camera needs to support synchronization function)
+(5) The serializers supporting access include but are not limited to MAX9295 / MAX96717 / MAX96705 / MAX96715, etc
+(6) This acquisition board is suitable for AGX Xavier / TX2-NX Devkit. NX can refer to our customized carrier board
+GMSL signal acquisition board software description:
+·GMSL acquisition board hardware is equipped with Jetson AgX Xavier / TX2 Devkit
+·Software code is portable and supports NVIDIA Jetson NX / Jetson TX2 NX / Jetson nano
+·The supported list of GMSL camera is described as follows:
+(1) GMSL1 serializer MAX96705 / MAX96701 / MAX96715, etc
+(2) GMSL2 serializer MAX9295 / MAX96717, etc
+(3) Sensors include but are not limited to AR0143 / AR0147 / AR0231 / AR0233 / AR0820 / ISX019 / IMX390 / IMX490 / OX01fc / OV2778 / OX03c / OX08bc, etc
+(4) It can be debugged according to the GMSL camera sample provided by the customer, and provide the image or source code
+(5) The front ISP is recommended because AGX / NX Xavier ISP does not support HDR
+(6) The software can support the simultaneous access of different cameras to the main control, such as 8M + 2M
+(7) Verified brand cameras include Leopard, Sensing, LC, Adayo, Desai, Huichuang, etc
